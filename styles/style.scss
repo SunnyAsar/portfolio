@@ -124,7 +124,18 @@ header {
   }
 }
 
+.social {
+  display: flex;
+  // justify-content: space-evenly;
+  margin-top: 30px; 
+}
+
 .projects {
   background: whitesmoke;
   height: 50vh;
+
+  .projects-header {
+    color: $base-color;
+    padding: 20px;
+  }
 }
