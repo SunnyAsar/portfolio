@@ -35,6 +35,7 @@ header {
         padding: 5px 40px;
         margin-left: 10px;
         border: 2px solid $base-color;
+        color: $base-color;
 
         &:hover {
           background: $base-color;
@@ -126,16 +127,58 @@ header {
 
 .social {
   display: flex;
+  margin-top: 30px;
+
   // justify-content: space-evenly;
-  margin-top: 30px; 
 }
 
-.projects {
+.projects-container {
   background: whitesmoke;
-  height: 50vh;
+  // height: 50vh;
 
   .projects-header {
     color: $base-color;
     padding: 20px;
+    padding-bottom: 20px;
+  }
+
+  .project {
+    background: white;
+    max-height: 500px;
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    color: grey;
+
+    img {
+      max-width: 100%;
+      max-height: 260px;
+    }
+
+    p {
+      font-size: 15px;
+      padding: 5px;
+      font-weight: 500;
+    }
+
+    h3 {
+      padding-top: 15px;
+    }
+  }
+
+  .project-row {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+  }
+
+  .build-info {
+    display: flex;
+    justify-content: space-between;
+    // text-align: center;
+    font-size: 15px;
   }
 }

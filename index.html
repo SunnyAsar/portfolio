@@ -25,8 +25,8 @@
           <!-- SUNNY LOGO-->
         </div>
         <div class="nav-links">
-          <li class="nav-link">Home</li>
-          <li class="nav-link">Portfolio</li>
+          <a href="#work" class="nav-link text-decoration-none" >Contact</a>
+          <a class="nav-link" href="#">Portfolio</a>
         </div>
       </nav>
     </header>
@@ -37,8 +37,8 @@
         <p class="sunny-info"> Brother, Friend, Full stack developer, Very Unemployed. </p>
         <p class="sunny-stack">Ruby/Rails, Php/Laravel, Js/React  </p>
         <div class="cta">
-          <a href="#" class="talk">Talk to me</a>
-          <a href="#" class="portfolio">See Portfolio!</a>
+          <a href="#" class="talk text-decoration-none">Talk to me</a>
+          <a href="#" class="portfolio text-decoration-none">See Portfolio!</a>
         </div>
         <div class="social col-md">
           <a href="https://github.com/SunnyAsar/"> 
@@ -61,26 +61,87 @@
       </div>
     </main>
 
-    <section class=" projects container-fluid">
-      <div class=" container">
-          <h2 class="projects-header">Featured Work</h2>
-            <div class="row">
-                <div class="col-md-6 project">
-                  sunny project
+    <section class="projects-container container-fluid">
+      <h2 class="container projects-header" id="work">Featured Work</h2>
+      <div class=" container projects">
+            <div class="row project-row">
+                <div class=" col-md- project">
+                      <img src="./media//projects/faceverse.png">
+                      <h3>faceverse</h3>
+                      <p>A minimal implementation of facebook</p>
+    
+                      <div class="row build-info">
+                        <div class="col-md col-sm stack pb-2">
+                            <span class="badge badge-pill badge-primary">Ruby</span>
+                            <span class="badge badge-pill badge-danger">Rails</span>
+                            <span class="badge badge-pill badge-success">Devise</span>
+                            <span class="badge badge-pill badge-dark">Bootstrap</span>
+    
+                        </div>
+                        <div class="col-md col-sm source"> 
+                          <a href="https://github.com/SunnyAsar/faceverse" class="btn btn-sm btn-outline-info"> view source</a>
+                        </div>
+                      </div>
                 </div>
-                <div class="col-md-6 project">
-                  sunny project
+                <div class="col-md- project">
+                  <img src="./media//projects/accountable-chart.png" />
+                  <h3>Accountable</h3>
+                  <p>Track income and expenditure with visual representation of behaiviour</p>
+                  <div class="row build-info">
+                      <div class="col-md col-sm stack pb-2">
+                          <span class="badge badge-pill badge-primary">Ruby</span>
+                          <span class="badge badge-pill badge-danger">Rails</span>
+                          <span class="badge badge-pill badge-warning">React</span>
+                          <span class="badge badge-pill badge-dark">Bulma</span>
+  
+                      </div>
+                      <div class="col-md col-sm source"> 
+                        <a href="https://github.com/SunnyAsar/Accountable" class="btn btn-sm btn-outline-info"> view source</a>
+                      </div>
+                    </div>
                 </div>
-              </div>
+            </div>
+
+            <div class="row project-row">
+                <div class="col-md- project">
+                  <img src="./media//projects/place.png">
+                  <h3>Places</h3>
+                  <p> Help travellers find activitives in cities at the best prices or free!</p>
+                  <div class="row build-info">
+                      <div class="col-md col-sm stack pb-2">
+                          <span class="badge badge-pill badge-primary">Ruby</span>
+                          <span class="badge badge-pill badge-danger">Rails</span>
+                          <span class="badge badge-pill badge-success">Jwt</span>
+                          <span class="badge badge-pill badge-warning">React</span>
+                          <span class="badge badge-pill badge-info">Stripe</span>
+                          <span class="badge badge-pill badge-dark">Bootstrap</span>
+  
+                      </div>
+                      <div class="col-md col-sm source"> 
+                        <a href="https://github.com/SunnyAsar/places-front-end" class="btn btn-sm btn-outline-info"> view source</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-md- project">
+                  <img src="./media//projects/react-bookstore.png">
+                  <h3>BookStore</h3>
+                  <p>An applicationt to help Book lovers keep track of their collections</p>
+                  <div class="row build-info">
+                      <div class="col-md col-sm stack pb-2">
+                          <span class="badge badge-pill badge-primary">Ruby</span>
+                          <span class="badge badge-pill badge-danger">Rails</span>
+                          <span class="badge badge-pill badge-warning">React</span>
+                          <span class="badge badge-pill badge-dark">Bootstrap</span>
+  
+                      </div>
+                      <div class="col-md col-sm source"> 
+                        <a href="https://github.com/SunnyAsar/react-Bookstore" class="btn btn-sm btn-outline-info"> view source</a>
+                      </div>
+                    </div>
+                </div>
+            </div>
               
-              <div class="row">
-                <div class="col-md-6 project">
-                  sunny project
-                </div>
-                <div class="col-md-6 project">
-                  sunny project
-                </div>
-              </div>
+            
         </div>
     </section>
 

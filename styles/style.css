@@ -48,6 +48,7 @@ header nav .nav-links .nav-link {
   padding: 5px 40px;
   margin-left: 10px;
   border: 2px solid #00b4a3;
+  color: #00b4a3;
 }
 
 header nav .nav-links .nav-link:hover {
@@ -143,13 +144,67 @@ header nav .nav-links .nav-link:hover {
   margin-top: 30px;
 }
 
-.projects {
+.projects-container {
   background: whitesmoke;
-  height: 50vh;
 }
 
-.projects .projects-header {
+.projects-container .projects-header {
   color: #00b4a3;
   padding: 20px;
+  padding-bottom: 20px;
+}
+
+.projects-container .project {
+  background: white;
+  max-height: 500px;
+  width: 520px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 20px;
+  color: grey;
+}
+
+.projects-container .project img {
+  max-width: 100%;
+  max-height: 260px;
+}
+
+.projects-container .project p {
+  font-size: 15px;
+  padding: 5px;
+  font-weight: 500;
+}
+
+.projects-container .project h3 {
+  padding-top: 15px;
+}
+
+.projects-container .project-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 40px;
+}
+
+.projects-container .build-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 15px;
 }
 /*# sourceMappingURL=style.css.map */
