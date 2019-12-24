@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+
+.main-content .cta .talk, .main-content .cta .portfolio {
+  padding: 10px;
+  font-size: 12px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    display: none;
+  }
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  padding: 10px;
+  margin: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav .nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  list-style-type: none;
+  color: #00b4a3;
+}
+
+header nav .nav-links .nav-link {
+  padding: 5px 40px;
+  margin-left: 10px;
+  border: 2px solid #00b4a3;
+}
+
+header nav .nav-links .nav-link:hover {
+  background: #00b4a3;
+  color: whitesmoke;
+}
+
+.main-content {
+  font-family: 'Gentium Book Basic', serif;
+  height: 80vh;
+  margin-top: -40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-content h2 {
+  font-weight: lighter;
+  font-size: 70px;
+  background: -webkit-gradient(linear, left bottom, right top, from(#2e294e), to(#00b4a3));
+  background: linear-gradient(to top right, #2e294e, #00b4a3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 5px;
+}
+
+.main-content p,
+.main-content h4 {
+  font-size: 20px;
+  color: grey;
+  padding: 5px;
+}
+
+.main-content .page-intro {
+  margin: auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .main-content .page-intro h2 {
+    font-size: 40px;
+  }
+  .main-content .page-intro p {
+    font-size: 15px;
+  }
+}
+
+.main-content .animation {
+  height: 92vh;
+  width: 50%;
+  z-index: 1;
+  background: url(../media/clip.png) no-repeat center center;
+  background-size: contain;
+}
+
+.main-content .cta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+}
+
+.main-content .cta .talk {
+  background-color: #00b4a3;
+  color: whitesmoke;
+  border: none;
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.main-content .cta .portfolio {
+  border: 2px solid #00b4a3;
+  color: #00b4a3;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: transparent;
+}
+
+.projects {
+  background: whitesmoke;
+  height: 50vh;
+}
+/*# sourceMappingURL=style.css.map */
