@@ -18,17 +18,28 @@ header {
   }
 
   nav {
-    display: flex;
     width: 90%;
     padding: 10px;
     margin: auto;
-    justify-content: space-between;
-    align-items: center;
+
+    .logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Courgette', cursive;
+      font-size: 34px;
+      font-weight: 600;
+      background: $base-color;
+      height: 70px;
+      width: 70px;
+      color: whitesmoke;
+      border-radius: 50%;
+    }
 
     .nav-links {
       display: flex;
       justify-content: space-evenly;
-      list-style-type: none;
+      // list-style-type: none;
       color: $base-color;
 
       .nav-link {
@@ -48,7 +59,7 @@ header {
 
 .main-content {
   font-family: 'Gentium Book Basic', serif;
-  height: 80vh;
+  height: 90vh;
   margin-top: -40px;
 
   h2 {
@@ -98,6 +109,7 @@ header {
   .cta {
     display: flex;
     justify-content: space-between;
+    // align-items: center;
     padding: 10px;
 
     .talk {
@@ -134,12 +146,12 @@ header {
 
 .projects-container {
   background: whitesmoke;
-  // height: 50vh;
 
   .projects-header {
     color: $base-color;
     padding: 20px;
     padding-bottom: 20px;
+    font-family: 'Courgette', cursive;
   }
 
   .project {
@@ -151,7 +163,6 @@ header {
     align-items: center;
     text-align: center;
     padding: 20px;
-    color: grey;
 
     img {
       max-width: 100%;
@@ -173,12 +184,20 @@ header {
     display: flex;
     justify-content: space-between;
     padding-bottom: 40px;
+
+    a {
+      text-decoration: none;
+
+      p,
+      h3 {
+        color: grey;
+      }
+    }
   }
 
   .build-info {
     display: flex;
     justify-content: space-between;
-    // text-align: center;
     font-size: 15px;
   }
 }
