@@ -67,7 +67,7 @@ header {
   h2 {
     font-weight: lighter;
     font-size: 70px;
-    margin-top: 5px; 
+    margin-top: 5px;
     background: linear-gradient(to top right, #2e294e, $base-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -149,7 +149,7 @@ header {
 
 .projects-container {
   background: whitesmoke;
-  margin: auto;
+  justify-content: center;
 
   .projects-header {
     color: $base-color;
@@ -184,6 +184,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding-bottom: 40px;
+    margin: 0px;
 
     a {
       text-decoration: none;

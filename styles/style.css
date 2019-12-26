@@ -159,7 +159,9 @@ header nav .nav-links .nav-link:hover {
 
 .projects-container {
   background: whitesmoke;
-  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .projects-container .projects-header {
@@ -199,6 +201,7 @@ header nav .nav-links .nav-link:hover {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-bottom: 40px;
+  margin: 0px;
 }
 
 .projects-container .project-row a {
