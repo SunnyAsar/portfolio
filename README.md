@@ -28,7 +28,7 @@ open `index.html ` with a browser.
 👤 **Author**
 
 - Github: [@SunnyAsar](https://github.com/SunnyAsar)
-- Linkedin: [Sunny Asar](https://www.linkedin.com/in/sunny-asar-905648101/)
+- Linkedin: [Sunny Asar](https://www.linkedin.com/in/sunnyasar/)
 
 ## 🤝 Contributing
 
