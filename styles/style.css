@@ -4,6 +4,12 @@ a {
   margin: 0;
   max-width: 100%;
   font-family: 'Open Sans', sans-serif;
+  color: grey;
+}
+
+*:hover,
+a:hover {
+  text-decoration: none;
 }
 
 .main-content .cta .talk, .main-content .cta .portfolio {
@@ -190,6 +196,10 @@ h2 {
   padding-bottom: 20px;
   font-size: 45px;
   font-weight: 700;
+}
+
+.projects-container .project-item {
+  padding: 20px;
 }
 
 .projects-container .project {
