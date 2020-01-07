@@ -1,7 +1,7 @@
 # Portfolio
 
 
-![screenshot](./media/clip-programming.png)
+![screenshot](./media/clip.png)
 
 This is a portfolio site, showcasing some of the projects I have worked and how to contact me find out more or just for a friendly chat.
 
