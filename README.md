@@ -3,7 +3,7 @@
 
 ![screenshot](./media/clip-programming.png)
 
-This is a portfolio site, showcasing some of the projects I have worked and how to contact me find out more or just for a friendly chat.
+This is a portfolio site, showcasing some of the projects I have worked on, how to contact me and find out what I am currently up to.
 
 
 ## Built With
