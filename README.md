@@ -1,7 +1,7 @@
 # Portfolio
 
 
-![screenshot](./media/clip-programming.png)
+![screenshot](./media/clip.png)
 
 This is a portfolio site, showcasing some of the projects I have worked on, how to contact me and find out what I am currently up to.
 
@@ -28,7 +28,7 @@ open `index.html ` with a browser.
 👤 **Author**
 
 - Github: [@SunnyAsar](https://github.com/SunnyAsar)
-- Linkedin: [Sunny Asar](https://www.linkedin.com/in/sunny-asar-905648101/)
+- Linkedin: [Sunny Asar](https://www.linkedin.com/in/sunnyasar/)
 
 ## 🤝 Contributing
 
