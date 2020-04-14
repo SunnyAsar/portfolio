@@ -130,7 +130,7 @@ h2 {
   height: 92vh;
   width: 50%;
   z-index: 1;
-  background: url(../media/clip.png) no-repeat center center;
+  background: url(../media/clip.jpg) no-repeat center center;
   background-size: contain;
 }
 
@@ -172,8 +172,8 @@ h2 {
 .main-content .cta .portfolio:hover {
   color: white;
   background: #00b4a3;
-  -webkit-box-shadow: 2px 8px 15px  lightgray;
-          box-shadow: 2px 8px 15px  lightgray;
+  -webkit-box-shadow: 2px 8px 15px lightgray;
+          box-shadow: 2px 8px 15px lightgray;
 }
 
 .social {
@@ -226,8 +226,8 @@ h2 {
 }
 
 .projects-container .project:hover {
-  -webkit-box-shadow: 2px 8px 15px  lightgray;
-          box-shadow: 2px 8px 15px  lightgray;
+  -webkit-box-shadow: 2px 8px 15px lightgray;
+          box-shadow: 2px 8px 15px lightgray;
 }
 
 .projects-container .project-row {
