@@ -1,7 +1,7 @@
 # Portfolio
 
 
-![screenshot](./media/clip.png)
+![screenshot](./media/clip.jpg)
 
 This is a portfolio site, showcasing some of the projects I have worked on, how to contact me and find out what I am currently up to.
 
