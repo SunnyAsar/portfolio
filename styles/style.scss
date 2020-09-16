@@ -69,51 +69,33 @@ h2 {
 }
 
 .main-content {
-  height: 90vh;
+  height: 85vh;
   margin-top: -40px;
+  padding: 50px;
 
-  h2 {
-    font-weight: lighter;
-    font-size: 70px;
-    margin-top: 5px;
-    background: linear-gradient(to top right, #2e294e, $base-color);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    letter-spacing: 5px;
-    font-weight: 600;
+  .title {
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    letter-spacing: 3px;
+    line-height: 1;
   }
 
-  p,
-  h4 {
-    font-size: 20px;
-    color: grey;
-    padding: 5px;
+  .about-me {
+    font-size: 18px;
+    margin-top: 1rem;
   }
 
   display: flex;
   justify-content: space-between;
   align-items: center;
 
-  .page-intro {
-    margin: auto;
-    text-align: center;
-
-    @media screen and (max-width: 700px) {
-      h2 {
-        font-size: 40px;
-      }
-
-      p {
-        font-size: 15px;
-      }
-    }
-  }
-
   .animation {
-    height: 92vh;
+    height: 80vh;
     width: 50%;
     z-index: 1;
-    background: url(../media/clip.jpg) no-repeat center center;
+    background: url(../media/color.jpg) no-repeat center center;
     background-size: contain;
   }
 
@@ -137,6 +119,7 @@ h2 {
         background: transparent;
         border: 2px solid $base-color;
         box-shadow: 2px 8px 15px #00b4a24d;
+        scale: 1px;
       }
     }
 
