@@ -20,7 +20,7 @@ a {
 }
 
 header {
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 768px) {
     display: none;
   }
 
@@ -85,6 +85,22 @@ h2 {
   .about-me {
     font-size: 18px;
     margin-top: 1rem;
+  }
+
+  @media screen and (max-width: 786px) {
+    .title {
+      font-size: 2.5rem;
+      margin-top: 40px;
+    }
+
+    .about-me {
+      font-size: 12px;
+      margin-top: 1rem;
+    }
+
+    .stack {
+      font-size: 1rem;
+    }
   }
 
   display: flex;
