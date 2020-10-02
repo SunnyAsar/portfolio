@@ -160,6 +160,14 @@ h2 {
 .social {
   display: flex;
   margin-top: 30px;
+
+  a {
+    transition: transform 200ms ease-in;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
 }
 
 .projects-container {
@@ -180,28 +188,45 @@ h2 {
 
   .project {
     background: white;
-    text-align: center;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 200ms ease-in;
+
+    .project-info {
+      margin: 10px;
+      padding: 10px;
+    }
 
     img {
-      height: 200px;
+      object-fit: fill;
       max-height: 230px;
+      width: 100%;
     }
 
     p {
-      font-size: 15px;
-      padding: 5px;
+      font-size: 14px;
       font-weight: 500;
+      margin-bottom: 0px;
     }
 
     h3 {
       padding-top: 15px;
+      color: black;
+    }
+
+    .build-info {
+      display: flex;
+      width: 100%;
+      margin: auto;
+    }
+
+    .project-link {
+      margin-bottom: 30px;
     }
 
     &:hover {
       box-shadow: 2px 8px 15px lightgray;
+      transform: scale(1.07);
     }
   }
 
@@ -220,12 +245,6 @@ h2 {
       }
     }
   }
-}
-
-.build-info {
-  display: flex;
-  width: 100%;
-  margin: auto;
 }
 
 .footer-info {

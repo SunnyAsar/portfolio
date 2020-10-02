@@ -180,6 +180,18 @@ h2 {
   margin-top: 30px;
 }
 
+.social a {
+  -webkit-transition: -webkit-transform 200ms ease-in;
+  transition: -webkit-transform 200ms ease-in;
+  transition: transform 200ms ease-in;
+  transition: transform 200ms ease-in, -webkit-transform 200ms ease-in;
+}
+
+.social a:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
 .projects-container {
   background: whitesmoke;
   -webkit-box-pack: center;
@@ -201,30 +213,54 @@ h2 {
 
 .projects-container .project {
   background: white;
-  text-align: center;
-  padding: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  -webkit-transition: -webkit-transform 200ms ease-in;
+  transition: -webkit-transform 200ms ease-in;
+  transition: transform 200ms ease-in;
+  transition: transform 200ms ease-in, -webkit-transform 200ms ease-in;
+}
+
+.projects-container .project .project-info {
   margin: 10px;
-  border-radius: 5px;
+  padding: 10px;
 }
 
 .projects-container .project img {
-  height: 200px;
+  -o-object-fit: fill;
+     object-fit: fill;
   max-height: 230px;
+  width: 100%;
 }
 
 .projects-container .project p {
-  font-size: 15px;
-  padding: 5px;
+  font-size: 14px;
   font-weight: 500;
+  margin-bottom: 0px;
 }
 
 .projects-container .project h3 {
   padding-top: 15px;
+  color: black;
+}
+
+.projects-container .project .build-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: auto;
+}
+
+.projects-container .project .project-link {
+  margin-bottom: 30px;
 }
 
 .projects-container .project:hover {
   -webkit-box-shadow: 2px 8px 15px lightgray;
           box-shadow: 2px 8px 15px lightgray;
+  -webkit-transform: scale(1.07);
+          transform: scale(1.07);
 }
 
 .projects-container .project-row {
@@ -245,14 +281,6 @@ h2 {
 .projects-container .project-row a p,
 .projects-container .project-row a h3 {
   color: grey;
-}
-
-.build-info {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  margin: auto;
 }
 
 .footer-info {
