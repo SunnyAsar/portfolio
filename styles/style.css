@@ -199,6 +199,11 @@ h2 {
           justify-content: center;
 }
 
+.projects-container .projects-list {
+  width: 90%;
+  margin: auto;
+}
+
 .projects-container .projects-header {
   color: #00b4a3;
   padding: 20px;
@@ -227,8 +232,8 @@ h2 {
 }
 
 .projects-container .project img {
-  -o-object-fit: fill;
-     object-fit: fill;
+  -o-object-fit: contain;
+     object-fit: contain;
   max-height: 230px;
   width: 100%;
 }
