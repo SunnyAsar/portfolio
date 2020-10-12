@@ -232,8 +232,8 @@ h2 {
 }
 
 .projects-container .project img {
-  -o-object-fit: contain;
-     object-fit: contain;
+  -o-object-fit: fill;
+     object-fit: fill;
   max-height: 230px;
   width: 100%;
 }
